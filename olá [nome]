@@ -1,0 +1,16 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("digite seu nome aqui:");
+        string nome = Console.ReadLine();
+        
+        Console.WriteLine ("Digite sua idade aqui:");
+        int idade = Convert.ToInt32(Console.ReadLine());
+        
+        Console.WriteLine ("Ola " + nome);
+        Console.WriteLine ("Voce tem " + idade + " anos");
+    }
+}
